@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_newUser"
+            android:icon="@mipmap/ic_person"
+            android:title="Agregar Persona" />
+        <item
+            android:id="@+id/menu_notes"
+            android:icon="@mipmap/ic_notes"
+            android:title="Notas" />
+        <item
+            android:id="@+id/menu_notes_show"
+            android:icon="@mipmap/ic_see_note"
+            android:title="Ver Notas" />
+    </group>
+    <item android:title="Otras Opciones">
+        <menu>
+            <item
+                android:id="@+id/menu_borrar"
+                android:icon="@mipmap/ic_delete"
+                android:title="Borrar"/>
+            <item
+                android:id="@+id/menu_help"
+                android:icon="@mipmap/ic_help"
+                android:title="Ayuda"/>
+        </menu>
+    </item>
+
+
+</menu>
